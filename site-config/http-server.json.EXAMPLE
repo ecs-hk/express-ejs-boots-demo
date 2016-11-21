@@ -1,0 +1,8 @@
+{
+    "ip": "127.0.0.1",
+    "port": 2088,
+    "requireTls": false,
+    "tlsKey": "/usr/local/etc/ssl/server.key",
+    "tlsCert": "/usr/local/etc/ssl/server.pem",
+    "tlsCaCert": "/usr/local/etc/ssl/ca.pem"
+}

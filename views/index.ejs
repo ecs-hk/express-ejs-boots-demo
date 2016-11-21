@@ -1,0 +1,55 @@
+<%- include('z01header') %>
+
+<div class="jumbotron">
+
+    <h1><%= title %></h1>
+
+    <p>Slightly opinionated Express.js demo. Also see the 
+            <a href="./hello">JSON</a> response example.</p>
+
+</div> <!-- class jumbotron -->
+
+<div class="row">
+
+    <div class="col-md-6">
+
+        <% if(typeof ejsObj.directoryData !== 'undefined' && ejsObj.directoryData.length > 0) { %>
+
+            <table class="table table-striped table-hover">
+                <tbody>
+
+                <% ejsObj.directoryData.forEach(function(item) { %>
+
+                    <% if(item.name === "app.js") { %>
+                        <tr class="info">
+                            <td><%= item.name %></td>
+                            <td><%= item.desc %></td>
+                        </tr>
+                    <% } else { %>
+                        <tr>
+                            <td><%= item.name %></td>
+                            <td><%= item.desc %></td>
+                        </tr>
+                    <% } %>
+
+                <% }); %>
+
+                </tbody>
+            </table>
+
+        <% } %>
+
+    </div>
+
+    <div class="col-md-6">
+
+        <pre>
+[<%= ejsObj.hostname %>] > ls
+<%= ejsObj.cmdOutput %>
+        </pre>
+
+    </div>
+
+</div>
+
+<%- include('z02footer') %>

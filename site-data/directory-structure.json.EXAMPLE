@@ -1,0 +1,38 @@
+[
+    {
+        "desc": "Main driver program (node app.js)",
+        "name": "app.js"
+    },
+    {
+        "desc": "Application settings for Bower",
+        "name": "bower.json"
+    },
+    {
+        "desc": "Components installed by Bower",
+        "name": "bower_components"
+    },
+    {
+        "desc": "Components installed by NPM",
+        "name": "node_modules"
+    },
+    {
+        "desc": "Application settings for NPM",
+        "name": "package.json"
+    },
+    {
+        "desc": "Application logic (the 'C' in MVC)",
+        "name": "routes"
+    },
+    {
+        "desc": "Application settings for HTTP server",
+        "name": "site-config"
+    },
+    {
+        "desc": "Application data (the 'M' in MVC; normally this would be in a database)",
+        "name": "site-data"
+    },
+    {
+        "desc": "Application view (the 'V' in MVC)",
+        "name": "views"
+    }
+]

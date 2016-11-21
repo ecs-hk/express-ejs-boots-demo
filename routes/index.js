@@ -68,7 +68,7 @@ function getAppData() {
  */
 function getDirectoryListing() {
   var exec = require('child_process').execSync,
-      stdout = exec('/bin/ls', {'timeout': 5, 'encoding': 'utf8'});
+      stdout = exec('/bin/ls', {'timeout': 5000, 'encoding': 'utf8'});
   return stdout;
 }
 

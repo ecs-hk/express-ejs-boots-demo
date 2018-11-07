@@ -6,8 +6,6 @@ Quick and easy look at using [Express.js](https://expressjs.com/) with the [EJS 
 
 ![Screenshot](/README.md-img/index.png?raw=true)
 
----
-
 ## Getting started
 
 After cloning this repo, copy (and change, if you'd like) HTTP listener settings:

@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-Quick look at using [Express.js](http://expressjs.com/) with the [EJS templating engine](http://www.embeddedjs.com/), [Bootstrap](http://getbootstrap.com/), and a [Bootswatch theme](https://bootswatch.com/). Should play nice with the [Node.js](https://nodejs.org/en/) LTS release.
+Quick and easy look at using [Express.js](http://expressjs.com/) with the [EJS templating engine](http://www.embeddedjs.com/) and [Bootstrap](http://getbootstrap.com/). Should play nice with the latest [Node.js](https://nodejs.org/en/) LTS release.
 
 ![Screenshot](/README.md-img/index.png?raw=true)
 
@@ -10,36 +10,23 @@ Quick look at using [Express.js](http://expressjs.com/) with the [EJS templating
 
 ## Getting started
 
-After cloning this repository, change working directory:
+After cloning this repo, copy (and change, if you'd like) HTTP listener settings:
 
 ```shell
 cd express-ejs-boots-demo
-```
-
-## Prepare your environment
-
-```shell
 cp ./site-config/http-server.json.EXAMPLE ./site-config/http-server.json
-vi ./site-config/http-server.json
 ```
 
-(TLS is optional.)
-
-```shell
-cp ./site-data/directory-structure.json.EXAMPLE ./site-data/directory-structure.json
-```
-
-## Install dependencies
-
-First, install Node.js and add npm(1) / node(1) to your path. Next:
+Next, install dependencies:
 
 ```shell
 npm install
-./node_modules/bower/bin/bower install
 ```
 
-## Start HTTP server
+Finally, launch the HTTP server:
 
 ```shell
 node app.js
 ```
+
+Visit the page in your web browser and observe the logging written to stdout in the terminal. Check out the example code and have a lot of fun.

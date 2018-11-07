@@ -1,0 +1,50 @@
+[
+    {
+        "desc": "Main driver program",
+        "name": "app.js"
+    },
+    {
+        "desc": "Helper functions (called from app.js and from routes)",
+        "name": "functions"
+    },
+    {
+        "desc": "Project file describing the license terms",
+        "name": "LICENSE"
+    },
+    {
+        "desc": "Application data/model (the 'M' in MVC); normally this would be in a database)",
+        "name": "model"
+    },
+    {
+        "desc": "Third-party modules installed by npm",
+        "name": "node_modules"
+    },
+    {
+        "desc": "Project file containing package, author, test, and other metadata info",
+        "name": "package.json"
+    },
+    {
+        "desc": "Mysterious npm-generated file that pollutes git commits",
+        "name": "package-lock.json"
+    },
+    {
+        "desc": "Project documentation in Markdown format",
+        "name": "README.md"
+    },
+    {
+        "desc": "Images referred to by Markdown (i.e. README.md)",
+        "name": "README.md-img"
+    },
+    {
+        "desc": "Application logic/controller (the 'C' in MVC)",
+        "name": "routes"
+    },
+    {
+        "desc": "Settings for HTTP server listener",
+        "name": "site-config"
+    },
+    {
+        "desc": "Application view (the 'V' in MVC), EJS templates",
+        "name": "views"
+    }
+]

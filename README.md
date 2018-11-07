@@ -2,7 +2,7 @@
 
 ## Synopsis
 
-Quick and easy look at using [Express.js](http://expressjs.com/) with the [EJS templating engine](http://www.embeddedjs.com/) and [Bootstrap](http://getbootstrap.com/). Should play nice with the latest [Node.js](https://nodejs.org/en/) LTS release.
+Quick and easy look at using [Express.js](https://expressjs.com/) with the [EJS templating engine](https://ejs.co/) and [Bootstrap](https://getbootstrap.com/). Should play nice with the latest [Node.js](https://nodejs.org/en/) LTS release.
 
 ![Screenshot](/README.md-img/index.png?raw=true)
 
